@@ -1,3 +1,13 @@
+@font-face{
+	font-family: Century Gothic;
+	src:url(../fonts/CenturyGothic-Bold.woff);
+}
+
+@font-face{
+	font-family: Helvetica;
+	src:url(../fonts/HelveticaRegular.woff);
+}
+
 body{
     min-width: 1040px;
     margin: 0 auto;
@@ -119,7 +129,7 @@ body{
 	height: 206px;
 	padding: 50px;
 	margin: 0 auto;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 }
 
 
@@ -159,16 +169,77 @@ body{
 	background-position: -380px 0;
 }
 
-.index_content{
+.index_content,
+.gallery{
 	width:940px;
 	margin-left: 150px;
-	padding:50px 80px;
+	padding:20px;
+}
+
+.index_content p{
+	margin-left: 150px;
 }
 
 .index_content_title{
 	margin: 0;
 	margin-bottom: 20px;
+	padding-top: 20px;
 	font-weight: bold;
 	font-size: 30px;
-	font-family: "Century Gotic", serif;
+	font-family: Century Gothic, serif;
+}
+
+.btn{
+	display:inline-block;
+	width: 150px;
+	padding: 10px 33px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Helvetica";
+	vertical-align: top;
+	text-align: center;
+	word-wrap: break-word;
+	border: 2px solid #87ddd5;
+	border-radius: 2px;
+	margin-right: 20px;
+	
+	color:#87ddd5;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	background-color: #252525;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn:hover{
+	color:#222222;
+	background-color: #87ddd5;	
+}
+
+.btn:active{
+	color:#222222;
+	background-color: #87ddd5;
+	opacity: 0.7;
+}
+
+.bt:disabled{
+	cursor: default;
+	opacity: 0.5;
+}
+
+.bt:disabled:hover{
+	background-color: #252525;
+	color: #87ddd5;
+}
+
+.gallery_content{
+	height: 680px;
+	margin: 0;
+}
+
+.gallery_content{
+	width: 1020px;
+	height: 680px; 
 }
