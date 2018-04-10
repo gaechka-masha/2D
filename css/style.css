@@ -241,5 +241,24 @@ body{
 
 .gallery_content{
 	width: 1020px;
-	height: 680px; 
+	height: 500px; 
 }
+
+.index_content_left{
+	float: left;
+	width: 500px;
+}
+.index_content_left p{
+	margin: 0;
+	padding: 20px;
+}
+
+.index_content_right{
+	float: right;
+	width: 440px;
+}
+
+
+
+
+
