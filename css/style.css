@@ -61,7 +61,6 @@ body{
 	z-index: -1;
 	height: 74px;
 }
-
 .main_header{
 	height: 74px;
 	m0
@@ -70,10 +69,6 @@ body{
 .main_navigation{
  		  float:left;
  		  width: 780px;
- 		  position: relative;
- 		  padding: 0;
- 		  margin: 0;
- 		  list-style: none;
 }
 
 .main_navigation ul{
@@ -86,13 +81,9 @@ body{
 .main_navigation li{
 	display: inline-block;
 	font-size: 18px;
-	
+	line-height: 24px;
 	vertical-align: top;
-	
-}
 
-.main_navigation li:last-child{
-	margin-right: 0;
 }
 
 .main_navigation a{
@@ -106,29 +97,6 @@ body{
 	color:#49bbb0;
 	background: #333333;
 }
-
-.main_navigation a:active{
-	opacity: 0.7;
-}
-
-.main_navigation .sub_menu{
-	display: none;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background: #252525;
-}
-
-.main_navigation .sub_menu a{
-	border-bottom: 1px solid #87ddd5;
-	margin-bottom: -1px;
-}
-
-.main_navigation li:hover .sub_menu{
-	display: block;
-}
-
 
 .user_block{
 	float: right;
@@ -273,7 +241,7 @@ body{
 
 .gallery_content{
 	width: 1020px;
-	height: 500px; 
+	height: 490px; 
 }
 
 .index_content_left{
@@ -287,7 +255,7 @@ body{
 
 .index_content_right{
 	float: right;
-	width: 440px;
+	width: 400px;
 }
 
 
